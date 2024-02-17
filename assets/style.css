@@ -282,7 +282,7 @@ footer {
 
   aside {
     max-width: 200px; 
-    margin-right: 0; 
+    max-height: auto;
   }
 
   aside img,
@@ -314,6 +314,22 @@ footer {
 
   .acoes {
     flex-direction: row;
+  }
+
+  .copiarButton {
+    flex-direction: column;
+  }
+
+  #copiar{
+    margin-bottom: 1rem;
+  }
+
+  .criador {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .links {
+    width: 30px;
   }
 }
 
