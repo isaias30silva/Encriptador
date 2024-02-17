@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Configurações da página -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Título da página e ícone -->
+    <title>Decodificador de textos</title>
+    <link
+      href="./assets/imagens/favicon.png"
+      type="image/png"
+    />
+    <!-- Estilos da página -->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- Seção principal da página -->
+    <div class="principal">
+      <!-- Cabeçalho -->
+      <header>
+          <img
+            class="logo"
+            src="./assets/imagens/logoAlura.PNG.png"
+            alt="Logotipo letra a de Alura"
+          />
+      </header>
+      <!-- Conteúdo principal -->
+      <main>
+        <!-- Área de entrada de texto -->
+        <textarea type="text" placeholder="Digite seu texto"></textarea>
+        <!-- Informações sobre as restrições do texto -->
+        <p class="info">
+          <img src="./assets/imagens/info.png" />
+          Apenas letras minúsculas, sem acento e espaço.
+        </p>
+        <!-- Botões de ação -->
+        <div class="acoes">
+          <button
+            type="button"
+            onclick="criptografar()"
+            class="button desabilitado"
+            id="botaoCripto"
+            disabled
+          >
+            Criptografar
+          </button>
+          <button
+            onclick="descriptografar()"
+            type="button"
+            class="button desabilitado"
+            id="botaoDescripto"
+            disabled
+          >
+            Descriptografar
+          </button>
+        </div>
+      </main>
+    </div>
+    <!-- Barra lateral -->
+    <aside>
+      <!-- Imagem na barra lateral -->
+      <img
+        src="./assets/imagens/boneco.png.png"
+        alt="Figura de pessoa olhando através de uma lupa."
+      />
+      <!-- Título e instruções na barra lateral -->
+      <h2>Nenhuma mensagem encontrada</h2>
+      <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      <!-- Resultado criptografado ou descriptografado -->
+      <span id="resultado">
+      </span>
+
+      <!-- Botão para copiar o resultado -->
+      <div>
+        <button
+          id="copiar"
+          onclick="copiar()"
+          type="button"
+          class="button copiar"
+        >
+          Copiar
+        </button>
+      </div>
+    </aside>
+
+    <!-- Rodapé da página -->
+    <footer class="footer ">
+      <!-- Informações sobre o desenvolvedor -->
+      <p class="criador">Desenvolvido por:  
+              @isaias30silva
+          <a href="https://github.com/isaias30silva" target="_blank">
+            <img class="links" src="./assets/imagens/github.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/isaias-menezes-silva/" target="_blank">
+            <img class="links" src="./assets/imagens/linkedin.png" />
+          </a>
+      </p>
+  </footer>
+    <!-- Script JavaScript -->
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
