@@ -156,12 +156,6 @@
     padding: 0 2rem;
     display: none;
   }
-
-  #resultado {
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-  }
   
   #copiar{
     margin-bottom: 2rem;
@@ -175,6 +169,9 @@
     padding: 0 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
   }
   
   .button{
@@ -264,7 +261,7 @@ footer {
   margin-bottom: -9.5px;
 }
 
-@media (max-width: 600px)  {
+@media (max-width: 650px)  {
   main {
     padding: 0 1rem;
   }
@@ -279,7 +276,7 @@ footer {
   }
 
   aside {
-    max-width: none; 
+    max-width: 200px; 
     margin-right: 0; 
   }
 
@@ -289,9 +286,29 @@ footer {
     display: block;
   }
 
+  aside img{
+    width: 136px;
+  }
+
+  aside h2{
+    font-weight: 100;
+    display: none;
+  }
+
   .button{
+    font-size: 12px;
+    padding: 0;
     width: 98px;
     height: 28px;
+  }
+
+  .button:hover {
+    background-color: var(--dark-blue-300);
+    color: var(--light-blue-100);
+  }
+
+  .acoes {
+    flex-direction: row;
   }
 }
 
