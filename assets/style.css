@@ -276,15 +276,15 @@ footer {
     max-width: 120px; 
     max-height: auto;
     margin-left: -20px;
+    margin-right: 5px;
   }
 
   aside img{
-    width: 136px;
+    width: 0;
   }
 
-  aside h2{
-    font-weight: 100;
-    display: none;
+  aside p{
+    font-size: 11px;
   }
 
   .button{
