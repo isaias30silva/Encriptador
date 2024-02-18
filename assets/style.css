@@ -272,7 +272,7 @@ footer {
   }
 
   main textarea {
-    width: 100%;
+    width: 90%;
   }
 
   .acoes {
@@ -281,14 +281,8 @@ footer {
   }
 
   aside {
-    max-width: 200px; 
+    max-width: 150px; 
     max-height: auto;
-  }
-
-  aside img,
-  aside h2,
-  aside p {
-    display: block;
   }
 
   aside img{
@@ -316,12 +310,12 @@ footer {
     flex-direction: row;
   }
 
-  .copiarButton {
-    flex-direction: column;
-  }
-
   #copiar{
     margin-bottom: 1rem;
+  }
+
+  #resultado{
+    font-size: 12px;
   }
 
   .criador {
