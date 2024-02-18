@@ -274,11 +274,12 @@ footer {
 
   aside {
     max-width: 120px; 
-    max-height: auto;
+    max-height: 80vh;
     margin-left: -20px;
     margin-right: 5px;
   }
 
+  /*deixando largura zerada da imagem para que ela nao apareça na tela do celular*/
   aside img{
     width: 0;
   }
