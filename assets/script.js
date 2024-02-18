@@ -72,7 +72,7 @@ textarea.addEventListener("paste", () => {
   botaoCripto.classList.add("criptografar");
   
   // Exibe mensagem no console
-  console.log("Entrou nessa porra aqui!");
+  console.log("Entrou na função!");
 
   // Habilita o botão de descriptografia
   botaoDescripto.disabled = false;
